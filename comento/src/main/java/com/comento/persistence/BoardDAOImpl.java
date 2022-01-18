@@ -34,7 +34,7 @@ public class BoardDAOImpl  implements BoardDAO {
 
 	
 
-	private static String namespace = "com.myp.mapper.BoardMapper";
+	private static String namespace = "com.comento.mapper.BoardMapper";
 
 	
 

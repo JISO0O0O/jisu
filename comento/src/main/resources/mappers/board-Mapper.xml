@@ -8,7 +8,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
 
 
-<mapper namespace="com.myp.mapper.BoardMapper">
+<mapper namespace="com.comento.mapper.BoardMapper">
 
 
 
@@ -22,7 +22,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
 
 
- <select id="read" resultType="com.myp.domain.BoardVO">
+ <select id="read" resultType="com.comento.domain.BoardVO">
 
  select 
 
@@ -56,7 +56,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
 
 
- <select id="listAll" resultType="com.myp.domain.BoardVO">
+ <select id="listAll" resultType="com.comento.domain.BoardVO">
 
  <![CDATA[
 
